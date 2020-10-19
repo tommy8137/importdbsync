@@ -1,0 +1,32 @@
+const router = require('koa-router')
+const eedm = require('../../../api/eedm/syncEedm.js')
+const eedmRouter = new router()
+const syncEEDM = new eedm()
+
+eedmRouter.get('/syncEEBOMPipe', syncEEDM.syncEEBOM_PIPE)
+eedmRouter.get('/syncEEBOMBasePipe', syncEEDM.syncEEBOM_BASE_PIPE)
+eedmRouter.get('/syncEEBOMBase', syncEEDM.syncEEBOM_BASE)
+eedmRouter.post('/syncEEBOMBase', syncEEDM.syncEEBOM_BASE)
+eedmRouter.get('/rebuildEEBOMProject', syncEEDM.reEEBOM_PROJECT)
+eedmRouter.get('/syncEEBOMDetail', syncEEDM.syncEEBOM_DETAIL)
+eedmRouter.get('/syncEEDM_COST_SUMMARYTABLE', syncEEDM.syncEEDM_COST_SUMMARYTABLE)
+eedmRouter.post('/syncEEDM_COST_SUMMARYTABLE', syncEEDM.syncEEDM_COST_SUMMARYTABLE)
+eedmRouter.get('/syncEEDM_BOM_ITEM', syncEEDM.syncEEDM_BOM_ITEM)
+eedmRouter.get('/syncEEDM_PN_LIST', syncEEDM.syncEEDM_PN_LIST)
+eedmRouter.get('/syncEEDM_COMMON_PARTS', syncEEDM.syncEEDM_COMMON_PARTS)
+eedmRouter.get('/syncEEDM_PN_PRICE', syncEEDM.syncEEDM_PN_PRICE)
+eedmRouter.get('/syncEEDM_PN_HIGHEST_PRICE', syncEEDM.syncEEDM_PN_HIGHEST_PRICE)
+eedmRouter.get('/syncEEDM_PN_LOWEST_PRICE', syncEEDM.syncEEDM_PN_LOWEST_PRICE)
+eedmRouter.get('/syncEEDM_PN_2ND_HIGHEST_PRICE', syncEEDM.syncEEDM_PN_2ND_HIGHEST_PRICE)
+eedmRouter.get('/syncEEDM_SPA_PRICE', syncEEDM.syncEEDM_SPA_PRICE)
+eedmRouter.get('/syncEEBOMDetail_BY_VERSION', syncEEDM.syncEEBOM_DETAIL_BY_VERSION)
+eedmRouter.get('/get_EEDM_SPA_PRICE_BY_PN', syncEEDM.get_EEDM_SPA_PRICE_BY_PN)
+eedmRouter.get('/syncSAP_ALT_PN', syncEEDM.syncSAP_ALT_PN)
+eedmRouter.post('/get_EEDM_ALT_PRICE_BY_PN', syncEEDM.get_EEDM_ALT_PRICE_BY_PN)
+eedmRouter.post('/pcbSyncResult', syncEEDM.pcbSyncResult)
+eedmRouter.post('/getALT_GROUP_PRICE_BY_PN', syncEEDM.getALT_GROUP_PRICE_BY_PN)
+eedmRouter.post('/getEEDM_PN_LOWEST_PRICE_BY_PN', syncEEDM.getEEDM_PN_LOWEST_PRICE_BY_PN)
+
+
+
+module.exports = eedmRouter

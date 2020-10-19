@@ -1,0 +1,15 @@
+const router = require('koa-router')
+const cbg = require('../../../api/cbg/syncCbg.js')
+const adminRouter = new router()
+const syncCbg = new cbg()
+
+adminRouter.get('/syncEPUR_ITEMSPEC', syncCbg.syncEPUR_ITEMSPEC)
+adminRouter.get('/syncEPUR_SOURCEDEF', syncCbg.syncEPUR_SOURCEDEF)
+adminRouter.get('/syncEPUR_SOURCERPROXY', syncCbg.syncEPUR_SOURCERPROXY)
+adminRouter.get('/syncEPUR_VGROUP', syncCbg.syncEPUR_VGROUP)
+adminRouter.get('/syncEPUR_TYPE1', syncCbg.syncEPUR_TYPE1)
+adminRouter.get('/syncEPUR_TYPE2', syncCbg.syncEPUR_TYPE2)
+adminRouter.get('/syncEPUR_SPEC_TITLE', syncCbg.syncEPUR_SPEC_TITLE)
+adminRouter.get('/syncEPUR_ITEMTYPE', syncCbg.syncEPUR_ITEMTYPE)
+adminRouter.get('/backdoor/:pn', syncCbg.backdoor)
+module.exports = adminRouter

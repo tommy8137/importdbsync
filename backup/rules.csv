@@ -1,0 +1,94 @@
+ASIC,DP,Spec 01+05+06+07+13+21
+ASIC,HDMI,Spec 01+05+06+07+13+21
+ASIC,Audio,Spec 01+02+05+09+26+30
+ASIC,Card reader,Spec 01+02+03+04+10+20
+ASIC,Super I/O,Spec 01+04+06+10+17+22
+ASIC,EC/ECIO,Spec 01+02+04+07+23+22+28
+ASIC,MCU,Spec 01+03+04+05+24+29
+ASIC,PCIE,Spec 01+03+04+05+09+17
+ASIC,SATA,Spec 01+03+04+05+09+17
+ASIC,USB 2.0-480Mbs,Spec 01+04+06+07+19+26
+ASIC,USB 3.0-5.0Gbs,Spec 01+04+06+07+19+26
+ASIC,USB 3.1-10Gbs,Spec 01+04+06+07+19+26
+ASIC,Type-C PD,Spec 01+03+08+17+24+29
+ASIC,I2C,Spec 01+02+04+07+08+15+22
+ASIC,CLK-PLL,Spec 01+02+03+08+15+22
+ASIC,Scalar,Spec 01+02+04+05+16+21
+ASIC,TPM,Spec 01+02+04+05+12
+ASIC,Interface,Spec 01+02+03+05+06+16+24
+ASIC,DSP,Spec 01+02+03+06+07+23+28
+ASIC,T-con,Spec 01+02+04+05+09+14
+ASIC,LVDS,Spec 01+02+03+04+13+18
+ASIC,MIPI,Spec 01+02+03+04+13+18
+ASIC,FPGA,Spec 01+02+03+04+17+22
+ASIC,CPLD,Spec 01+02+03+04+17+22
+ASIC,AUDIO SRC/ARC,Spec 01+02+03+04+05+17+21
+ASIC,BMC,Spec 01+02+03+07+19+24
+Capacitor,E-CAP,Spec1+2+3+4+5+8+10
+Capacitor,Film Cap,Spec1+2+3+4+5+8+10
+Capacitor,OS-CON,Spec1+2+3+4+5+8+10
+Capacitor,Polymer,Spec1+2+3+4+5+8+10
+Capacitor,SuperCap,Spec1+2+3+4+5+8+10
+Capacitor,Tan. Cap,Spec1+2+3+4+5+8+10
+Discrete,Schottky Diode,Spec1+3+4+6
+Discrete,SW Diode,Spec1+3+4+7
+LED,SMD,Spec8+9+1+2+4+7
+Logic,Bus Switch,Spec1+2+3+4+5
+Logic,Single Gate,Spec1+2+3+4+5+6
+MLCC,DIP,Spec1+2+3+4+5+6
+MLCC,SMD,Spec1+2+3+4+5+6
+MOSFET,N CHANNEL,Spec2+3+4+5+10+11
+MOSFET,NN CHANNEL,Spec2+3+4+5+10+11
+MOSFET,P CHANNEL,Spec2+3+4+5+10+11
+MOSFET,NP CHANNEL,Spec2+3+4+5+10+11
+MOSFET,Small Signal,Spec2+3+4+5+10+11
+MOSFET,PP CHANNE,Spec2+3+4+5+10+11
+Nand Flash,MCP,Spec2+1+5+3+4
+Nand Flash,eMCP,Spec2+1+6+3+4+5
+Nand Flash,Raw NAND,spec1+2+3+4+5+6
+Nand Flash,UFS,spec1+2+3+4+5+7
+Nand Flash,eMMC,spec1+2+3+4+5+6
+NOR Flash,Data Flash,Spec2+1+3+6+4+5+8
+NOR Flash,ISA,Spec2+1+3+6+4+5+8
+NOR Flash,SPI,Spec2+1+3+6+4+5+8
+Opto,IR Receiver,spec1+2+3+4+5+6+7+8+9+10+11+12
+Opto,IR emitter,spec1+2+3+4+5+6+7+8+9+10+11+12
+Opto,Photocoupler,spec1+2+3+4+5+6+7+8+9+10+11+12
+Power IC,Audio AMP,Spec1+2+3+4+5+9
+Power IC,Charger,Spec1+2+3+4+5+10
+Power IC,DAC,Spec1+2+3+4+6
+Power IC,DC-DC Converter,Spec1+2+3+4+6+8
+Power IC,Dr.MOS,Spec1+2+3+4+5+7
+Power IC,Fan Driver,Spec1+2+3+4+5+7
+Power IC,Interface,Spec1+2+3+4+5+7
+Power IC,LDO/Regulator,Spec1+2+3+4+5+7
+Power IC,LED Driver,Spec1+2+3+4+5+6+8
+Power IC,Mosfet Driver,Spec1+2+3+4+6
+Power IC,OP Amp,Spec1+2+3+4+6
+Power IC,PMIC,Spec1+2+3+4+5+11
+Power IC,POE,Spec1+2+3+4+6
+Power IC,Power Module,Spec1+2+3+4+5+7
+Power IC,Power Switch,Spec1+2+3+4+5+6+8+12
+Power IC,PWM Controller,Spec1+2+3+4+5+6+9
+Power IC,Reset IC,Spec1+2+3+4+5+7
+Power IC,V-Core,Spec1+2+3+4+9
+RES,Thermistor,Spec1+2+3+4+5+6+7
+Power IC,Shut,Spec1+2+3+4+5+7
+Power IC,OVP,Spec1+2+3+4+6+7+9
+Sensor,Inertial Sensor,Spec1+2+3+4+5+6
+Sensor,Magnetic Sensor,Spec1+2+3+4+5+8
+Sensor,Temperature Sensor,Spec1+2+3+4+5+7
+Sensor,Light Sensor,Spec1+2+3+4+5+9
+XTAL,Crystal,Spec1+2+3+4+5+7+8
+Film,Complex,SPEC2+4+9
+Film,DBEF,SPEC2+4+9
+Film,Diffuser DLED,SPEC2+4+9
+Film,Diffuser ELED,SPEC2+4+9
+Film,Prism DLED,SPEC2+4+9
+Film,Prism ELED,SPEC2+4+9
+Film,Reflector DLED,SPEC2+4+9
+Film,Reflector ELED,SPEC2+4+9
+Film,Diffuser plate,SPEC5+9+4
+Film,LGP,SPEC5+9+10
+Light Bar,DLED,SPEC11+10+5
+Light Bar,ELED,SPEC11+10+9
